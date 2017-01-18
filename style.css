@@ -1,0 +1,34 @@
+#grad1 {
+  width: 72px;
+  height: 58px;
+
+  background: linear-gradient(to right, red, green);
+  border-radius: 15px;
+  float: left;
+}
+p{
+  color: white;
+  text-align: center;
+  padding: 4px 0;
+}
+#grad2 {
+  width: 72px;
+  height: 58px;
+  margin: 0 auto;
+  background: radial-gradient(red, yellow, green);
+  border-radius: 15px;
+  background-size: 70px 83px;
+  background-position: 1px -195px;
+  float: left;
+}
+
+#grad3 {
+  width: 72px;
+  height: 58px;
+  margin: 0 auto;
+  background: radial-gradient(red, yellow, green);
+  border-radius: 15px;
+  background-size: 81px 129px;
+  background-position: -2px -57px;
+  float: left;
+}
